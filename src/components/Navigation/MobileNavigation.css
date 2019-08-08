@@ -1,0 +1,74 @@
+#page-wrap {
+    overflow: hidden;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    transition: color 0.3s;
+    outline: none;
+    letter-spacing: 1.1px;
+  }
+  
+  nav {
+    background-color: #04080f;
+    overflow: hidden;
+  }
+  
+  .menu {
+    overflow: hidden;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 20px 32px;
+    transition: all 0.3s;
+  }
+  
+  .menu a:first-of-type {
+    margin-top: 40px;
+  }
+  
+  .menu a:nth-child(odd) {
+    background-color: #1f2833;
+  }
+  
+  .menu a:hover {
+    background-color: #45a29e;
+    cursor: pointer;
+  }
+  
+  /* Position and sizing of burger button */
+  .bm-burger-button {
+    position: fixed;
+    width: 44px;
+    height: 38px;
+    right: 5%;
+    top: 13px;
+  }
+  
+  .bm-burger-button button {
+    outline: none;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: white;
+  }
+  
+  /* General sidebar styles */
+  
+  /* Color/shape of close button cross */
+  .bm-cross-button button {
+    background-color: white;
+    color: white;
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .bm-burger-button {
+      display: none;
+    }
+  }

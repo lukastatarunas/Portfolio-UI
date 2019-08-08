@@ -1,33 +1,253 @@
-.App {
-  text-align: center;
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #04080f;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.linkedin-github {
+  margin: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.linkedin,
+.github {
+  margin: 10px;
+  color: white;
+}
+
+#outer-container {
+  width: 100%;
+  height: 100%;
+  padding: 0 5% 0 5%;
+}
+
+.particles-js {
+  z-index: -1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+header {
+  height: calc(100vh - 64px);
+  max-height: 880px;
+  margin-top: 64px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.full-nav {
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: rgb(4, 8, 15, 0.9);
+  padding: 0 5% 0 5%;
+}
+
+.header-content {
+  margin: auto;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.header-name {
+  text-align: center;
+  color: #66fcf1;
+  font-size: 4em;
+  letter-spacing: 1.2px;
+  cursor: default;
+}
+
+header input {
+  margin-top: 80px;
+}
+
+.subheader {
+  text-align: center;
   color: white;
+  font-weight: 100;
+  letter-spacing: 1.2px;
+  font-size: 2.2rem;
+  margin-top: 2rem;
+  cursor: default;
 }
 
-.App-link {
-  color: #61dafb;
+.standard-button {
+  background-color: transparent;
+  border: 1.5px solid #66fcf1;
+  display: inline-block;
+  color: white;
+  border-radius: 8px;
+  padding: 1em 1.4em;
+  transition: background-color 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
+  outline: none;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  max-width: 12em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.standard-button:hover {
+  background-color: #45a29e;
+  color: white;
+  cursor: pointer;
+}
+
+section h1 {
+  color: #66fcf1;
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.left-content p {
+  width: 90%;
+  margin-top: 2em;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 1.2px;
+}
+
+.skills,
+.contact {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  min-height: 600px;
+}
+
+.skills {
+  margin-bottom: 50vh;
+  margin-top: 50vh;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 50vh;
+}
+
+.left-content {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100%;
+}
+
+.skills-content,
+.contact-content {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: relative;
+  max-height: 660px;
+}
+
+.skills-content:before,
+.contact-content:before {
+  content: "";
+  display: block;
+  padding-top: 100%; /* initial ratio of 1:1*/
+}
+
+@media only screen and (max-width: 1000px) {
+  .left-content {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .left-content p {
+    margin-top: 2rem;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .skills-content,
+  .contact-content {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact-content {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .left-content {
+    justify-content: center;
+    height: auto;
+  }
+
+  .skills {
+    margin-bottom: 20vh;
+    margin-top: 20vh;
+  }
+
+  .projects {
+    margin-top: 20vh;
+  }
+
+  .skills-content,
+  .contact-content {
+    width: 100%;
+    position: static;
+    margin-top: 40px;
+  }
+
+  .skills,
+  .contact {
+    min-height: 0px;
+  }
+
+  .skills-content:before,
+  .contact-content:before {
+    padding-top: 0%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header-content {
+    height: 60vh;
+  }
+
+  header {
+    max-height: 650px;
+  }
+
+  header {
+    height: calc(100vh - 130px);
+  }
+
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .header-content {
+    justify-content: center;
+  }
+
+  .header-name {
+    font-size: 2.3rem;
+  }
+
+  .subheader {
+    font-size: 1.8rem;
   }
 }

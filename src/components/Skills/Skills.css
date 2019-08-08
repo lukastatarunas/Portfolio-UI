@@ -1,0 +1,19 @@
+.skills input {
+    margin-top: 40px;
+  }
+  
+  .skills a {
+    color: #66fcf1;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .skills a:hover {
+    color: #45a29e;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .skills input {
+      margin-top: 24px;
+    }
+  }

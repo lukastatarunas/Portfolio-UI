@@ -1,0 +1,204 @@
+.grid {
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-items: center;
+    margin-top: 2.5em;
+  }
+  
+  .grid figure {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 480px;
+    min-width: 320px;
+    height: auto;
+    background: #04080f;
+    text-align: center;
+    border-radius: 8px;
+    cursor: default;
+  }
+  
+  figure:hover figcaption,
+  figure:hover p.icon-links a {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .grid figure figcaption,
+  .grid figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-background {
+    -webkit-transition: opacity 0.7s, -webkit-transform 0.7s;
+    transition: opacity 0.7s, transform 0.7s;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    width: 100%;
+    height: 100%;
+  }
+  
+  figure:hover .image-background {
+    opacity: 0.3;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  
+  .project-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .projects-logo {
+    position: absolute;
+    bottom: 35%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 1;
+    -webkit-transform: scale(1.2);
+    -webkit-transform: translate3d(0, 35%, 0);
+    -webkit-transition: opacity 0.7s, -webkit-transform 0.7s;
+    -webkit-backface-visibility: hidden;
+    transition: opacity 0.7s, transform 0.7s;
+  }
+  
+  figure:hover .projects-logo {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  
+  .dream-logo,
+  .smart-logo,
+  .trivia-logo {
+    width: 240px;
+    height: 100%;
+  }
+  
+  .show-logo {
+    width: 180px;
+    height: 100%;
+  }
+  
+  figure figcaption {
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #3c4a50;
+    -webkit-transition: -webkit-transform 0.7s;
+    transition: transform 0.7s;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  
+  .bottom-container {
+    height: 64px;
+    background: #c5c6c7;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 0px 0px 8px 8px;
+  }
+  
+  .portfolio-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+  }
+  
+  .bottom-container {
+    align-self: flex-end;
+    width: 100%;
+  }
+  
+  .project-button {
+    display: inline-block;
+    color: white;
+    letter-spacing: 1.2px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    transition: all 0.5s;
+    outline: none;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #1f2833;
+  }
+  
+  .project-button:hover {
+    cursor: pointer;
+    background-color: #45a29e;
+  }
+  
+  figure p.description {
+    position: absolute;
+    top: 30%;
+    padding: 1em;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: none;
+    opacity: 0;
+    -webkit-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+    -webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
+    width: 100%;
+  }
+  
+  figure:hover p.description {
+    opacity: 1;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    figure.effect .image-background {
+      opacity: 0.3;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    figure.effect p.description {
+      opacity: 1;
+    }
+  
+    figure.effect figcaption,
+    figure.effect h2,
+    figure.effect p.icon-links a {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  
+    .projects-logo {
+      transform: translate3d(0, 0, 0);
+      -webkit-transform: translate3d(0, 0, 0);
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+  
+    figure.effect p.description {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .grid {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+  
+    .grid figure {
+      min-width: 280px;
+      min-height: 250px;
+    }
+  }
