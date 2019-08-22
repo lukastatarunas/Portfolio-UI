@@ -4,8 +4,9 @@ import smartBrainLogo from './assets/smartbrain-logo.svg'
 import roboFriends from './assets/robofriends.png'
 import roboFriendsLogo from './assets/robofriends-logo.svg'
 import lrt from './assets/lrt.jpg'
-import calculator from './assets/calculator.png'
+import calculator from './assets/calculator.jpg'
 import calculatorLogo from './assets/calculator-logo.svg'
+import game from './assets/game.jpg'
 import './Projects.css'
 
 const Projects = () => {
@@ -133,6 +134,47 @@ const Projects = () => {
             </div>
             <p className='description'>
               Built using React.js, Node.js, Express.js and LRT API.
+            </p>
+          </figcaption>
+        </figure>
+        <figure className='effect'>
+          {/* <div className='project-logo-container'>
+            <img
+              className='projects-logo smart-logo'
+              src={ smartBrainLogo }
+              alt='project'
+            />
+          </div> */}
+          <div className='background-container'>
+            <img
+              className='image-background'
+              src={ game }
+              alt='project'
+            />
+          </div>
+          <figcaption>
+            <div className='bottom-container'>
+              <div className='portfolio-links'>
+                <a
+                  className='project-button'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://github.com/lukastatarunas/Memory-Puzzle-Game'
+                >
+                  Github
+                </a>
+                <a
+                  className='project-button'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://lukastatarunas.github.io/Memory-Puzzle-Game/'
+                >
+                  Website
+                </a>
+              </div>
+            </div>
+            <p className='description'>
+              Built using HTML5, CSS3, JavaScript.
             </p>
           </figcaption>
         </figure>

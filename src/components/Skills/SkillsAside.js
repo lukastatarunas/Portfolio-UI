@@ -14,7 +14,7 @@ const SkillsAside = () => {
       </li>
       <li style={{ borderRadius: '0 8px 0 0' }}>
         <i className='fab fa-js-square' />
-        <p>JavaScript ES6</p>
+        <p>JavaScript ES6+</p>
       </li>
       <li>
         <i className='fab fa-react' />
