@@ -17,7 +17,7 @@ class ContactForm extends Component {
   handleSubmit = e => {
     e.preventDefault()
     this.setState({ buttonDisabled: true })
-    fetch(`https://murmuring-brushlands-82266.herokuapp.com/send`, {
+    fetch(`https://infinite-ravine-84425.herokuapp.com/send`, {
       method: `POST`,
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
