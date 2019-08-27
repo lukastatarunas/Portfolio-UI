@@ -4,9 +4,11 @@ import smartBrainLogo from './assets/smartbrain-logo.svg'
 import roboFriends from './assets/robofriends.png'
 import roboFriendsLogo from './assets/robofriends-logo.svg'
 import lrt from './assets/lrt.jpg'
+import memoryGame from './assets/game.jpg'
+import gradient from './assets/gradient.png'
+import gradientLogo from './assets/gradient-logo.svg'
 import calculator from './assets/calculator.jpg'
 import calculatorLogo from './assets/calculator-logo.svg'
-import game from './assets/game.jpg'
 import './Projects.css'
 
 const Projects = () => {
@@ -36,7 +38,7 @@ const Projects = () => {
                   className='project-button'
                   target='_blank'
                   rel='noopener noreferrer'
-                  href='https://github.com/lukastatarunas/Face-Recognition-Web-App'
+                  href='https://github.com/lukastatarunas/Face-Recognition-Web-App/'
                 >
                   Github
                 </a>
@@ -77,7 +79,7 @@ const Projects = () => {
                   className='project-button'
                   target='_blank'
                   rel='noopener noreferrer'
-                  href='https://github.com/lukastatarunas/Robofriends-Web-App'
+                  href='https://github.com/lukastatarunas/Robofriends-Web-App/'
                 >
                   Github
                 </a>
@@ -118,7 +120,7 @@ const Projects = () => {
                   className='project-button'
                   target='_blank'
                   rel='noopener noreferrer'
-                  href='https://github.com/lukastatarunas/UI'
+                  href='https://github.com/lukastatarunas/UI/'
                 >
                   Github
                 </a>
@@ -126,21 +128,21 @@ const Projects = () => {
                   className='project-button'
                   target='_blank'
                   rel='noopener noreferrer'
-                  href='https://lrt-live.herokuapp.com'
+                  href='https://lrt-live.herokuapp.com/'
                 >
                   Website
                 </a>
               </div>
             </div>
             <p className='description'>
-              Built using React.js, Node.js, Express.js and LRT API.
+              Built using React.js, Node.js, Express.js, Bootstrap and LRT API.
             </p>
           </figcaption>
         </figure>
         <figure className='effect'>
           {/* <div className='project-logo-container'>
             <img
-              className='projects-logo smart-logo'
+              className='projects-logo memory-logo'
               src={ smartBrainLogo }
               alt='project'
             />
@@ -148,7 +150,7 @@ const Projects = () => {
           <div className='background-container'>
             <img
               className='image-background'
-              src={ game }
+              src={ memoryGame }
               alt='project'
             />
           </div>
@@ -159,7 +161,7 @@ const Projects = () => {
                   className='project-button'
                   target='_blank'
                   rel='noopener noreferrer'
-                  href='https://github.com/lukastatarunas/Memory-Puzzle-Game'
+                  href='https://github.com/lukastatarunas/Memory-Puzzle-Game/'
                 >
                   Github
                 </a>
@@ -168,6 +170,47 @@ const Projects = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                   href='https://lukastatarunas.github.io/Memory-Puzzle-Game/'
+                >
+                  Website
+                </a>
+              </div>
+            </div>
+            <p className='description'>
+              Built using HTML5, CSS3, JavaScript.
+            </p>
+          </figcaption>
+        </figure>
+        <figure className='effect'>
+          <div className='project-logo-container'>
+            <img
+              className='projects-logo calculator-logo'
+              src={ gradientLogo }
+              alt='project'
+            />
+          </div>
+          <div className='background-container'>
+            <img
+              className='image-background'
+              src={ gradient }
+              alt='project'
+            />
+          </div>
+          <figcaption>
+            <div className='bottom-container'>
+              <div className='portfolio-links'>
+                <a
+                  className='project-button'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://github.com/lukastatarunas/Background-Gradient-Generator/'
+                >
+                  Github
+                </a>
+                <a
+                  className='project-button'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://lukastatarunas.github.io/Background-Gradient-Generator/'
                 >
                   Website
                 </a>
@@ -200,7 +243,7 @@ const Projects = () => {
                   className='project-button'
                   target='_blank'
                   rel='noopener noreferrer'
-                  href='https://github.com/lukastatarunas/iPhone-Calculator-Web-App'
+                  href='https://github.com/lukastatarunas/iPhone-Calculator-Web-App/'
                 >
                   Github
                 </a>
