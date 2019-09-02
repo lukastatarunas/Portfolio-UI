@@ -9,6 +9,7 @@ import gradient from './assets/gradient.png'
 import gradientLogo from './assets/gradient-logo.svg'
 import calculator from './assets/calculator.jpg'
 import calculatorLogo from './assets/calculator-logo.svg'
+import camperbnb from './assets/camperbnb.jpg'
 import './Projects.css'
 
 const Projects = () => {
@@ -252,6 +253,47 @@ const Projects = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                   href='https://lukastatarunas.github.io/iPhone-Calculator-Web-App/'
+                >
+                  Website
+                </a>
+              </div>
+            </div>
+            <p className='description'>
+              Built using React.js.
+            </p>
+          </figcaption>
+        </figure>
+        <figure className='effect'>
+          {/* <div className='project-logo-container'>
+            <img
+              className='projects-logo smart-logo'
+              src={ smartBrainLogo }
+              alt='project'
+            />
+          </div> */}
+          <div className='background-container'>
+            <img
+              className='image-background'
+              src={ camperbnb }
+              alt='project'
+            />
+          </div>
+          <figcaption>
+            <div className='bottom-container'>
+              <div className='portfolio-links'>
+                <a
+                  className='project-button'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://github.com/lukastatarunas/Camperbnb/'
+                >
+                  Github
+                </a>
+                <a
+                  className='project-button'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://camper-bnb.herokuapp.com/'
                 >
                   Website
                 </a>
