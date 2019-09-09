@@ -10,6 +10,7 @@ import gradientLogo from './assets/gradient-logo.svg'
 import calculator from './assets/calculator.jpg'
 import calculatorLogo from './assets/calculator-logo.svg'
 import camperbnb from './assets/camperbnb.jpg'
+import troll from './assets/troll.jpg'
 import './Projects.css'
 
 const Projects = () => {
@@ -294,6 +295,47 @@ const Projects = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                   href='https://camper-bnb.herokuapp.com/'
+                >
+                  Website
+                </a>
+              </div>
+            </div>
+            <p className='description'>
+              Built using React.js.
+            </p>
+          </figcaption>
+        </figure>
+        <figure className='effect'>
+          {/* <div className='project-logo-container'>
+            <img
+              className='projects-logo smart-logo'
+              src={ smartBrainLogo }
+              alt='project'
+            />
+          </div> */}
+          <div className='background-container'>
+            <img
+              className='image-background'
+              src={ troll }
+              alt='project'
+            />
+          </div>
+          <figcaption>
+            <div className='bottom-container'>
+              <div className='portfolio-links'>
+                <a
+                  className='project-button'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://github.com/lukastatarunas/Meme-Generator/'
+                >
+                  Github
+                </a>
+                <a
+                  className='project-button'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://generate-memes.herokuapp.com/'
                 >
                   Website
                 </a>
