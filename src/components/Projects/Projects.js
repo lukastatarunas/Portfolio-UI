@@ -184,14 +184,14 @@ const Projects = () => {
             </p>
           </figcaption>
         </figure>
-        <figure className='effect'>
-          {/* <div className='project-logo-container'>
+        {/* <figure className='effect'>
+          <div className='project-logo-container'>
             <img
               className='projects-logo smart-logo'
               src={ smartBrainLogo }
               alt='project'
             />
-          </div> */}
+          </div>
           <div className='background-container'>
             <img
               className='image-background'
@@ -224,15 +224,15 @@ const Projects = () => {
               Built using React.js, Node.js, Express.js, Bootstrap and LRT API.
             </p>
           </figcaption>
-        </figure>
-        <figure className='effect'>
-          {/* <div className='project-logo-container'>
+        </figure> */}
+        {/* <figure className='effect'>
+          <div className='project-logo-container'>
             <img
               className='projects-logo smart-logo'
               src={ smartBrainLogo }
               alt='project'
             />
-          </div> */}
+          </div>
           <div className='background-container'>
             <img
               className='image-background'
@@ -265,15 +265,15 @@ const Projects = () => {
               Built using React.js.
             </p>
           </figcaption>
-        </figure>
-        <figure className='effect'>
-          {/* <div className='project-logo-container'>
+        </figure> */}
+        {/* <figure className='effect'>
+          <div className='project-logo-container'>
             <img
               className='projects-logo memory-logo'
               src={ smartBrainLogo }
               alt='project'
             />
-          </div> */}
+          </div>
           <div className='background-container'>
             <img
               className='image-background'
@@ -306,8 +306,8 @@ const Projects = () => {
               Built using HTML5, CSS3, JavaScript.
             </p>
           </figcaption>
-        </figure>
-        <figure className='effect'>
+        </figure> */}
+        {/* <figure className='effect'>
           <div className='project-logo-container'>
             <img
               className='projects-logo calculator-logo'
@@ -347,7 +347,7 @@ const Projects = () => {
               Built using HTML5, CSS3, JavaScript.
             </p>
           </figcaption>
-        </figure>
+        </figure> */}
         {/* <figure className='effect'>
           <div className='project-logo-container'>
             <img
