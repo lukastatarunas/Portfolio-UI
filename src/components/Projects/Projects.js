@@ -1,4 +1,5 @@
 import React from 'react'
+import btc from './assets/btc.jpg'
 import campaigns from './assets/campaigns.png'
 import eCommerce from './assets/ecommerce.png'
 import smartBrain from './assets/smartbrain.png'
@@ -58,6 +59,47 @@ const Projects = () => {
             </div>
             <p className='description'>
               Built using React.js, Redux.js, GraphQL, Context API, Stripe API, Firebase, styled-components.
+            </p>
+          </figcaption>
+        </figure>
+        <figure className='effect'>
+          {/* <div className='project-logo-container'>
+            <img
+              className='projects-logo smart-logo'
+              src={ smartBrainLogo }
+              alt='project'
+            />
+          </div> */}
+          <div className='background-container'>
+            <img
+              className='image-background'
+              src={ btc }
+              alt='project'
+            />
+          </div>
+          <figcaption>
+            <div className='bottom-container'>
+              <div className='portfolio-links'>
+                <a
+                  className='project-button'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://github.com/lukastatarunas/Btc-Web-App'
+                >
+                  Github
+                </a>
+                <a
+                  className='project-button'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://604a89da67a0bc0008839955--musing-almeida-def008.netlify.app/'
+                >
+                  Website
+                </a>
+              </div>
+            </div>
+            <p className='description'>
+              Built using React.js, Material-UI, styled-components.
             </p>
           </figcaption>
         </figure>
