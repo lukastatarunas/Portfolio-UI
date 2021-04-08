@@ -51,7 +51,8 @@ const Projects = () => {
                   className='project-button'
                   target='_blank'
                   rel='noopener noreferrer'
-                  href='https://lukas-crown-clothing.herokuapp.com/'
+                  // href='https://lukas-crown-clothing.herokuapp.com/'
+                  href='https://dreamy-jang-c1a428.netlify.app/'
                 >
                   Website
                 </a>
