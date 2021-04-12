@@ -141,7 +141,7 @@ const Projects = () => {
               </div>
             </div>
             <p className='description'>
-              Built using React.js, Redux.js, Moment.js, Material UI, styled-components.
+              Built using React.js, Redux.js, Moment.js, Material-UI, styled-components.
             </p>
           </figcaption>
         </figure>
