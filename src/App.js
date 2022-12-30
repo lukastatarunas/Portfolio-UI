@@ -52,7 +52,7 @@ class App extends Component {
             <div className='header-content'>
               <div className='header-text'>
                 <h1 className='header-name'>Lukas Tatarūnas</h1>
-                <h3 className='subheader'>Web Developer</h3>
+                <h3 className='subheader'>Software Engineer</h3>
               </div>
               <Link to='projects' offset={ -100 } smooth={ true } duration={ 500 }>
                 <input

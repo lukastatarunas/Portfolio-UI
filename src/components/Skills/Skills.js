@@ -19,9 +19,9 @@ class Skills extends Component {
         <div className='left-content'>
           <h1 className='section-header'>About me</h1>
           <p>
-            I am a Web Developer based in Vilnius, Lithuania. I have a passion for
+            I am a Software Engineer based in Vilnius, Lithuania. I have a passion for
             learning and building things. I started my journey in 2017 as a
-            Web Developer. Since then, I have worked by myself and in teams
+            Software Engineer. Since then, I have worked by myself and in teams
             to build awesome experiences. You can find more about me on{" "}
             <a
               href='https://www.linkedin.com/in/lukas-tatar%C5%ABnas-17343a154/'
