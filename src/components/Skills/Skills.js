@@ -20,7 +20,7 @@ class Skills extends Component {
           <h1 className='section-header'>About me</h1>
           <p>
             I am a Web Developer based in Vilnius, Lithuania. I have a passion for
-            learning and building things. I started my journey in 2019 as a
+            learning and building things. I started my journey in 2017 as a
             Web Developer. Since then, I have worked by myself and in teams
             to build awesome experiences. You can find more about me on{" "}
             <a
